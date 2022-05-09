@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedrooms</title>
+    <link rel="stylesheet" href="Bedroom.css">
+</head>
+<body>
+    <div class="nav">
+         <nav>
+         <ul>
+            <li>
+                <a href="Home.html">Back</a>
+               
+            </li>
+            </ul>
+        </nav>
+        <div class="navbar">
+            <nav>
+            <ul>
+               <li>
+                   <a href="Dining.html">Next</a>
+                  
+               </li>
+               </ul>
+           </nav>
+        </div>
+    
+
+    <div class="container">
+        <h1>Videos</h1>
+    <div class="row">
+        <div class="col">
+            
+            <div class="feature">
+                <img src="vids/bedroom.jpg" width="100%">
+                <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video3.mp4')">
+            </div>
+        </div>
+    
+    <div class="col">
+        <div class="small-img-row">
+            <div class="small-img">
+                <img src="vids/amazing.jpg" >
+                <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/work.mp4')">
+            </div>
+             <p>More videos about <br>The structure of the house </p> 
+        </div>
+    
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="vids/clean.jpg" >
+                    <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video5.mp4')" >
+                </div>
+                 <p>More videos about <br>The structure of the house </p> 
+            </div>
+            
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="vids/gothic.jpeg" >
+                        <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video6.mp4')">
+                    </div>
+                     <p>More videos about <br>The structure of the house </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="bedroomvideo.mp4" type="video/mp4">
+        </video>
+        <img src="closer.jpg" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+        var videoPlayer = document. getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+
+            videoPlayer.style.display = "none";
+        }
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block"
+        }
+    </script>
+
+</body>
+</html>

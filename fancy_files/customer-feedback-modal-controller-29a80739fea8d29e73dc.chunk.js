@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[141],{1421:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return o}));var a=n(44),c=n(7),s=n(8);class o extends a.default{connect(){super.connect(),Object(c.k)({element:this.element,data:{action:s.t}})}positiveResponse(e){Object(c.k)({element:e.currentTarget,data:{action:s.s}})}negativeResponse(e){Object(c.k)({element:e.currentTarget,data:{action:s.r}})}}}}]);
+//# sourceMappingURL=customer-feedback-modal-controller-29a80739fea8d29e73dc.chunk.js.map

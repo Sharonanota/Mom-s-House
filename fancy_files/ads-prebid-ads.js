@@ -1,0 +1,1 @@
+window.aBDetected = false;

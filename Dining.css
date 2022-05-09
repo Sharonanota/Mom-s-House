@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navb{
+    /* background-color: blanchedalmond; */
+    margin-left: 21%;
+    color: aliceblue;
+}
+.navb ul li a{
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px yellow;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: -20%;
+
+}
+.img-img {
+    padding-top: 100%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    display: none;
+
+
+}
+
+.show{
+  opacity: 1%;  
+}
