@@ -8,85 +8,56 @@
     <link rel="stylesheet" href="Bedroom.css">
 </head>
 <body>
-    <div class="nav">
-         <nav>
-         <ul>
-            <li>
-                <a href="Home.html">Back</a>
-               
-            </li>
+<header>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li><br>
+
+                <br/> <li><a href="Kitchen.html">Kitchen</a></li><br>
+
+                   <li><a href="Dining.html">Dinning</a></li><br>
+
+                <li><a href="Backyard.html">Backyard</a></li>
             </ul>
         </nav>
-        <div class="navbar">
-            <nav>
-            <ul>
-               <li>
-                   <a href="Dining.html">Next</a>
-                  
-               </li>
-               </ul>
-           </nav>
-        </div>
-    
-
-    <div class="container">
-        <h1>Videos</h1>
-    <div class="row">
-        <div class="col">
-            
-            <div class="feature">
-                <img src="vids/bedroom.jpg" width="100%">
-                <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video3.mp4')">
-            </div>
-        </div>
-    
-    <div class="col">
-        <div class="small-img-row">
-            <div class="small-img">
-                <img src="vids/amazing.jpg" >
-                <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/work.mp4')">
-            </div>
-             <p>More videos about <br>The structure of the house </p> 
-        </div>
-    
-            <div class="small-img-row">
-                <div class="small-img">
-                    <img src="vids/clean.jpg" >
-                    <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video5.mp4')" >
-                </div>
-                 <p>More videos about <br>The structure of the house </p> 
-            </div>
-            
-                <div class="small-img-row">
-                    <div class="small-img">
-                        <img src="vids/gothic.jpeg" >
-                        <img src="big.png" width="30px" class="play-btn" onclick="playVideo('vids/video6.mp4')">
-                    </div>
-                     <p>More videos about <br>The structure of the house </p> 
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="video-player" id="videoPlayer">
-        <video width="100%" controls autoplay id="myVideo">
-            <source src="bedroomvideo.mp4" type="video/mp4">
-        </video>
-        <img src="closer.jpg" class="close-btn" onclick="stopVideo()">
+</header>
+ <div class="container">
+     <div class="heading">
+   <h3>Mom's  <span>Bedrooms</span></h3>
+   </div>
+ 
+ <div class="box">
+     <div class="dream">
+         <img src="vids/6.jpeg" >
+         <img src="vids/1.jpeg">
+         <img src="vids/2.jpeg">
+         <img src="vids/3.jpeg">
+         <img src="vids/4.jpeg">
+         <img src="vids/5.jpeg">
+     </div>
+     <div class="dream">
+        <img src="vids/7.jpeg" >
+        <img src="vids/8.jpeg" >
+        <img src="vids/bedroom.jpg">
+        <img src="vids/11.jpeg">
+        <img src="vids/download.jpeg">
+        <img src="vids/9.jpeg">
     </div>
-
-    <script>
-        var videoPlayer = document. getElementById("videoPlayer");
-        var myVideo = document.getElementById("myVideo");
-
-        function stopVideo(){
-
-            videoPlayer.style.display = "none";
-        }
-        function playVideo(file){
-            myVideo.src = file;
-            videoPlayer.style.display = "block"
-        }
-    </script>
-
+    <div class="dream">
+        <img src="vids/15.jpg" >
+        <img src="vids/16.jpeg" >
+        <img src="vids/17.jpg">
+        <img src="vids/gothic.jpeg">
+        <img src="vids/amazing.jpg">
+        <img src="vids/10.jpeg">
+    </div>
+       
+ </div>
+<div class="btn">
+    <a href="#">more</a>
+</div>
+</div>
 </body>
 </html>
